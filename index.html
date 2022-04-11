@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yolomy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navigation bar -->
+    <header class="container-fluid top" >
+        <nav class="navbar navbar-expand-lg ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" href="#"><img src="assets/logo/logo.png" class="responsive"></a>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <p>Home</p> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><p>Products</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/logo/shop.png" class="responsive"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- text in the middle -->
+        <section class="container text">
+                <div class="row info justify-content-center position_text">
+                    <div class="col-sm-12">
+                        <p>Our clothing, your comfort</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center s_text">
+                    <div class="col-sm-12">
+                        <p>We understand that you need to look great and feel great.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center s_text">
+                    <div class="col-sm-12">
+                        <p>It all starts with what you are wearing.</p>
+                    </div>
+                </div>
+
+
+            <!-- mouse scroll icon -->
+            <div class="row m_icon justify-content-center">
+                <div class="col-sm-6 offset-sm-6">
+                    <a href="#"><img src="assets/mouse_click.png" class="responsive"></a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section>
+        <div class="container-fluid see_all">
+            <div class="row ">
+                <div class="col-sm-2">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                        <div class="col-sm-10">
+                            <p>MEN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                    <div class="col-sm-10">
+                        <p>WOMEN</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                        <div class="col-sm-10">
+                            <p>CHILDREN</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="row  justify-content-end">
+                        <div class="col-sm-5 offset-sm-7">
+                            <button class="nav-link btn btn brownish">SEE ALL PRODUCTS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products -->
+        <div class="container-fluid">
+            <div class="row horizon">
+                <div class="col-sm-1">
+                    <p class="men">MEN</p>
+                </div>
+                <div class="col-sm-11">
+                    <hr class="horizontal">
+                </div>
+            </div>
+
+            <div class="row justify-content-end m_range">
+                <div col-sm-12>
+                    <p class="men">
+                        1/5 <br> < >
+                    </p>
+                </div>
+
+            </div>
+            <!-- men's products -->
+            <div class="row men">
+                <!-- men's shirt -->
+                <div class=" single-product col-sm-3 ">
+                    <div class="row size">
+                        <!-- size dropdown row -->
+                        <div class="col-sm-7 justify-content-start">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
+                                    <span class="glyphicon glyphicon-menu-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Large
+                                        </a></li>
+                                        <li><a href="#">
+                                        Medium
+                                        </a></li>
+                                        <li><a href="#"> Small
+                                        </a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <!-- colors avaiab dots at the end same row as size -->
+                        <div class="col-sm-5 justify-content-end">
+                            <div class="row">
+                                <div class="col-sm-3 offset-sm-1 color green"></div>
+                                <div class="col-sm-3 offset-sm-1 color blue"></div>
+                                <div class="col-sm-3 offset-sm-1 color grey"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- the shirt -->
+                    <div class="row justify-content-center ">
+                        <div class="col-sm-8 shirt">
+                            <img src="assets/products/tshirt.png" alt="mens-shirt" >
+                        </div>
+                    </div>
+                    <!-- last row within shirt collumn -->
+                    <div class="row product_price" style="margin-top: 92px;">
+                        <!-- name of product -->
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">T-SHIRT</p>
+                        </div>
+                        <!-- price of product -->
+                        <div class="col-sm-4 justify-content-end ">
+                            <p class="product">&euro; 5,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- men's pants -->
+                <div class=" single-product col-sm-3 offset-sm-1">
+                    <div class="row size">
+                        <!-- size dropdown row -->
+                        <div class="col-sm-6 justify-content-start">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
+                                    <span class="glyphicon glyphicon-menu-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Large
+                                        </a></li>
+                                        <li><a href="#">
+                                        Medium
+                                        </a></li>
+                                        <li><a href="#"> Small
+                                        </a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- the pants -->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 shirt">
+                            <img src="assets/products/pants.png" alt="pants" >
+                        </div>
+
+                    </div>
+                    <div class="row product_price">
+                        <!-- name of product -->
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">PANTS FORCLAZ</p>
+                        </div>
+                        <!-- price of product -->
+                        <div class="col-sm-4 justify-content-end">
+                            <p class="product">&euro; 30,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- backpack -->
+                <div class=" single-product col-sm-3 offset-sm-1">
+                    <!-- amount in liters row -->
+                    <div class="row size">
+                        <div class="col-sm-6 justify-content-start">
+                            10LTRS1<span></span>
+                        </div>
+                    </div>
+                    <!-- the bag itself row -->
+                    <div class="row justify-content-center product_image">
+                        <img src="assets/products/backpack.png" alt="backpack" >
+                    </div>
+                    <!-- the product name and price row -->
+                    <div class="row product_price" style="margin-top: 140px;">
+                        <!-- name of product -->
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">BACKPACK</p>
+                        </div>
+                        <!-- price of product -->
+                        <div class="col-sm-4 justify-content-end">
+                            <p class="product">&euro; 60,00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- women's products -->
+
+            <div class="row horizon">
+                <div class="col-sm-11">
+                    <hr class="horizontal">
+                </div>
+                <div class="col-sm-1">
+                    <p class="men">WOMEN</p>
+                </div>
+            </div>
+            <div class="row justify-content-start w_range">
+                <div col-sm-12>
+                    <p class="men">
+                        1/5 <br> < >
+                    </p>
+
+                </div>
+            </div>
+            <div class="row">
+                <!-- giacket for women -->
+                <div class=" single-product col-sm-3">
+                    <div class="row size">
+                        <!-- size dropdown row -->
+                        <div class="col-sm-6 justify-content-start">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
+                                    <span class="glyphicon glyphicon-menu-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Large
+                                        </a></li>
+                                        <li><a href="#">
+                                        Medium
+                                        </a></li>
+                                        <li><a href="#"> Small
+                                        </a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- actual giacket row -->
+                    <div class="row justify-content-center">
+                        <img src="assets/products/giacket.png" alt="chacket!" >
+                    </div>
+                    <!-- price and product name row -->
+                    <div class="row product_price">
+                         <!-- name of product -->
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">GIACKET</p>
+                        </div>
+                        <!-- price of product -->
+                        <div class="col-sm-4 justify-content-end">
+                            <p class="product">&euro; 60,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- trekking shoes fro women -->
+                <div class=" single-product col-sm-3 offset-sm-1">
+                    <div class="row size">
+                        <!-- size dropdown row -->
+                        <div class="col-sm-6 justify-content-start">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
+                                    <span class="glyphicon glyphicon-menu-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Large
+                                        </a></li>
+                                        <li><a href="#">
+                                        Medium
+                                        </a></li>
+                                        <li><a href="#"> Small
+                                        </a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                <!-- actual trekking shoe row -->
+                    <div class="row justify-content-center product_image">
+                        <img src="assets/products/trekkingshoes.png" alt="trekkingshoes" >
+                    </div>
+                    <!-- price and product name row -->
+                    <div class="row product_price shoe">
+                         <!-- name of product -->
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name ">TREKKING SHOES</p>
+                        </div>
+                        <!-- price of product -->
+                        <div class="col-sm-4 justify-content-end">
+                            <p class="product">&euro; 80,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Ladies tshirt product  -->
+            <div class=" single-product col-sm-3 offset-sm-1">
+                 <div class="row size">
+                    <!-- size dropdown row -->
+                    <div class="col-sm-6 justify-content-start">
+                        <div class="dropdown">
+                                <button class="btn btn-outline-secondary btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
+                                    <span class="glyphicon glyphicon-menu-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Large
+                                        </a></li>
+                                        <li><a href="#">
+                                        Medium
+                                        </a></li>
+                                        <li><a href="#"> Small
+                                        </a></li>
+                                    </ul>
+                            </div>
+                    </div>
+                    <!-- available color -->
+                    <div class="col-sm-6 justify-content-end">
+                        <!-- colors avaiab dots at the end same row as size -->
+                        <div class="col-sm-6 justify-content-end">
+                            <div class="row">
+                                <div class="col-sm-4  color purple"></div>
+                                <div class="col-sm-3  color white"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center ">
+                    <img src="assets/products/tshirt_ladies.png" alt="ladies shirt" >
+                </div>
+                <!-- price and product name row -->
+                <div class="row product_price">
+                         <!-- name of product -->
+                    <div class="col-sm-8 justify-content-start">
+                        <p class="product_name">T-SHIRT</p>
+                    </div>
+                        <!-- price of product -->
+                    <div class="col-sm-4 justify-content-end">
+                        <p class="product">&euro; 20,00</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- mouse scroll icon -->
+    <!-- <div class="row m_icon justify-content-center">
+        <div class="col-sm-6 offset-sm-6">
+            <a href="#"><img src="assets/mouse_click.png"></a>
+        </div>
+    </div> -->
+
+    <!-- about -->
+    <section class="container-fluid about">
+        <div class = "row ">
+            <div class ="col-sm-6 offset-sm-3" >
+                <fieldset>
+                    <legend>
+                        <p class="about" >
+                            ABOUT US
+                        </p>
+                    </legend>
+                        This is where high fashion clothing is designed <br>
+                        and crafted from the heart by <br>
+                        an amazing team of craftmen and designers<br>
+                        who understand what fashion is.
+                        </p>
+                </fieldset>
+            </div>
+       </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row discount">
+            <div class=" col-sm-2 birdy">
+                <img src="assets/social_icons/twitter_bird.png" alt="twitter birdy" >
+            </div>
+            <div class="col-sm-10">
+                <p class="text_discount" >"SALE:Buy anything for 45%off.Uses the promo code CODE YOLOMY45 When you buy items."</p>
+            </div>
+        </div>
+        <footer class="row bottom_section">
+            <div class="col-sm-3 offset-sm-1">
+                <p class="text_col_1">YOLOMY<p>
+                <p class="style_text" >
+                    WE ARE YOLOMY-WE UNDERSTAND<br>
+                    FASHION AND STYLE.WE CRAFT OUR <br>
+                    PRODUCTS WITH LOVE AND DILIGENCE.
+                </p>
+            </div>
+            <div class="col-sm-3 offset-sm-1">
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-4">
+                        <p class="text_col_2">We are social</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/g_plus.png" alt="google plus icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/facebook.png" alt="facebook icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/you_tube.png" alt="youtube icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/stumble_upon.png" alt="stumble upon icon" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/skype.png" alt="skype icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/flickr.png" alt="flicker icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/twitter.png" alt="twitter icon" ></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/pinterest.png" alt="pinterest icon" ></div>
+                    </div>
+                </div>
+                <div class="row rights">
+                    <div class="col-sm-8 offset-sm-4">
+                        <p class="style_text">COPYRIGHT 2015. YOLOMY INC</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-3 offset-sm-1 ">
+                <p class="text_col_3 justify-content-center">
+                CREDITS | PRIVACY | ABOUT | CONTACT
+                </p>
+                <p>Yolomy:We Mean Fashion</p>
+            </div>
+        </footer>
+    </section>
+
+
+
+<script src="style.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
